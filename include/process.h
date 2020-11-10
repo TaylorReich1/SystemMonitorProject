@@ -13,7 +13,6 @@ class Process {
   long int UpTime();                       
   bool operator<(Process const& a) const;  
 
-  // Constrctor
  private:
   int pid;
   std::string user;
